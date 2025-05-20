@@ -1,5 +1,2 @@
-dataset/*
-!dataset/.gitKeep
-!dataset/set_csv.py
-checkpints/*
-!checkpints/.gitKeep
+*.wav
+./xtts2/XTTSv2-Finetuning-for-New-Languages/checkpoints/*

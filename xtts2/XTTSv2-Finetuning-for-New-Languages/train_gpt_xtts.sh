@@ -1,0 +1,11 @@
+CUDA_VISIBLE_DEVICES=0 python train_gpt_xtts.py \
+  --output_path checkpoints/ \
+  --metadatas ../../dataset/Nos_Celtia-GL/metadata_train.csv,../../dataset/Nos_Celtia-GL/metadata_eval.csv,gl \
+  --num_epochs 3 \
+  --batch_size 8 \
+  --grad_acumm 4 \
+  --max_text_length 400 \
+  --max_audio_length 330750 \
+  --weight_decay 1e-2 \
+  --lr 5e-6 \
+  --save_step 50000
