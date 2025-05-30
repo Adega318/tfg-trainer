@@ -1,0 +1,1 @@
+sudo snx-rs -o vpn -s secure.cesga.es -u ulccoeaf --no-keepalive false -e ssl
